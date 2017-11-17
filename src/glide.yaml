@@ -1,0 +1,8 @@
+package: .
+import:
+- package: github.com/gin-gonic/gin
+  version: ^1.2.0
+- package: github.com/mattn/go-isatty
+  version: ^0.0.3
+- package: github.com/minio/minio-go
+  version: ^3.0.3

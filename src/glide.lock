@@ -1,0 +1,42 @@
+hash: 832717547805f7408382f2933a40b28b1b3a919cd74e1c802aaa5da847b85d3b
+updated: 2017-10-26T07:09:26.014443823+01:00
+imports:
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/gin
+  version: d459835d2b077e44f7c9b453505ee29881d5d12d
+  subpackages:
+  - binding
+  - render
+- name: github.com/go-ini/ini
+  version: f384f410798cbe7cdce40eec40b79ed32bb4f1ad
+- name: github.com/golang/protobuf
+  version: 1643683e1b54a9e88ad26d98f81400c8c9d9f4f9
+  subpackages:
+  - proto
+- name: github.com/mattn/go-isatty
+  version: 0360b2af4f38e8d38c7fce2a9f4e702702d73a39
+- name: github.com/minio/go-homedir
+  version: 21304a94172ae3a09dee2cd86a12fb6f842138c7
+- name: github.com/minio/minio-go
+  version: 4e0f567303d4cc90ceb055a451959fb9fc391fb9
+  subpackages:
+  - pkg/credentials
+  - pkg/encrypt
+  - pkg/policy
+  - pkg/s3signer
+  - pkg/s3utils
+  - pkg/set
+- name: github.com/ugorji/go
+  version: cbd720c66c3f3af447a5b5d78a9b3e0446243e69
+  subpackages:
+  - codec
+- name: golang.org/x/sys
+  version: 176de7413414c01569163271c745672ff04a7267
+  subpackages:
+  - unix
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/yaml.v2
+  version: eb3733d160e74a9c7e442f435eb3bea458e1d19f
+testImports: []
