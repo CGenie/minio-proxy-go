@@ -71,7 +71,7 @@ func ServeFile(c *gin.Context, path string) {
 		if object.Key == path {
 			fmt.Println(object)
 
-			object, err := minioClient.GetObject(bucket, path)
+			object, err := minioClient.GetObject(bucket, path, minio.GetObjectOptions{})
 			if err != nil {
 				panic(err)
 			}

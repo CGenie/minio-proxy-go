@@ -2,7 +2,7 @@ FROM golang:1.9.7-alpine
 
 RUN apk add --no-cache curl git
 
-COPY ./ /go/
+COPY ./ /go
 
 WORKDIR /go
 RUN curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
