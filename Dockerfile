@@ -2,12 +2,12 @@ FROM golang:alpine
 
 RUN apk add --no-cache curl git
 
-COPY ./ /go
+COPY ./ /go/
 
 WORKDIR /go
-RUN curl https://glide.sh/get | sh
-RUN cd src && glide install
-RUN go-wrapper install minio-proxy-go
+RUN curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+RUN cd /go/src/minio-proxy-go && dep init && dep ensure
+RUN go install minio-proxy-go
 
 ENTRYPOINT ["/bin/sh", "-c"]
 #CMD ["/code/docker/minio-proxy-startup.sh"]

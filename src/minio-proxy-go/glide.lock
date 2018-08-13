@@ -17,7 +17,7 @@ imports:
 - name: github.com/mattn/go-isatty
   version: 0360b2af4f38e8d38c7fce2a9f4e702702d73a39
 - name: github.com/minio/go-homedir
-  version: 21304a94172ae3a09dee2cd86a12fb6f842138c7
+  version: 4d76aabb80b22bad8695d3904e943f1fb5e6199f
 - name: github.com/minio/minio-go
   version: 4e0f567303d4cc90ceb055a451959fb9fc391fb9
   subpackages:
