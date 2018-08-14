@@ -17,9 +17,9 @@ imports:
 - name: github.com/mattn/go-isatty
   version: 0360b2af4f38e8d38c7fce2a9f4e702702d73a39
 - name: github.com/minio/go-homedir
-  version: 21304a94172ae3a09dee2cd86a12fb6f842138c7
+  version: 4d76aabb80b22bad8695d3904e943f1fb5e6199f
 - name: github.com/minio/minio-go
-  version: 4e0f567303d4cc90ceb055a451959fb9fc391fb9
+  version: 70799fe8dae6ecfb6c7d7e9e048fce27f23a1992
   subpackages:
   - pkg/credentials
   - pkg/encrypt
@@ -32,7 +32,7 @@ imports:
   subpackages:
   - codec
 - name: golang.org/x/sys
-  version: 176de7413414c01569163271c745672ff04a7267
+  version: 98c5dad5d1a0e8a73845ecc8897d0bd56586511d
   subpackages:
   - unix
 - name: gopkg.in/go-playground/validator.v8
